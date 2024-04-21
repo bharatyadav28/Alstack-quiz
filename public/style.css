@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  transition: all;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: brown;
+  font-style: italic;
+  font-size: 5rem;
+}
+
+.q-block {
+  margin-bottom: 2rem;
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 5rem;
+  /* overflow: auto;
+  word-wrap: break-word; */
+  padding: 1rem;
+}
+
+.questions {
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.options {
+  margin: 1rem 3rem;
+  font-weight: 540;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+input[type="submit"] {
+  padding: 1rem;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: brown;
+  color: aliceblue;
+  font-size: large;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgb(167, 32, 32);
+}
+
+.error-type {
+  background-color: rgb(247, 131, 131);
+}
+
+.error {
+  font-size: 2rem;
+  color: bisque;
+  font-style: oblique;
+}
